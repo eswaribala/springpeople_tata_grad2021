@@ -25,7 +25,7 @@ class MusicAppTest {
         cdList1 = new ArrayList<>(cdList);
         cdList1
                 .stream()
-                .sorted(((o1, o2) -> o1.getSingerName().compareTo(o2.getSingerName())));
+                .sorted(((o1, o2) -> o1.getSingerName().compareToIgnoreCase(o2.getSingerName())));
 
         cdList2 = new ArrayList<>(cdList);
         MusicApp musicApp = new MusicApp();

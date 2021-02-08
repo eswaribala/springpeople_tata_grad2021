@@ -12,22 +12,18 @@ import static org.apache.commons.lang3.StringUtils.isAlpha;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CDTest {
-
-    private CD cd1, cd2;
     private List<CD> cdList;
 
     @BeforeEach
     void setUp() {
         CdDao cdDao = new CdDaoImpl();
         cdList = cdDao.getallCDs();
-        cd1 = cdList.get(0);
-        cd2 = cdList.get(1);
     }
 
     @Test
     @DisplayName("Test CD Title uniqueness")
     public void testCdTitleUnique() {
-        assertNotEquals(cd1.getTitle(), cd2.getTitle());
+        assertEquals(cdList.stream().distinct().count(), cdList.stream().count());
     }
 
     @Test
