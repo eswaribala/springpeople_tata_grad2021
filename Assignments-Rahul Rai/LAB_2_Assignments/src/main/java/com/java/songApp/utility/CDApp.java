@@ -16,7 +16,6 @@ public class CDApp {
         for(CD cd : cdList){
             System.out.println(cd);
         }
-        // sort transaction by dot
         Collections.sort(cdList,new CDSorter());
         System.out.println("\n After Sorting : \n");
         for(CD transaction : cdList){
