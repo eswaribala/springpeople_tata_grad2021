@@ -18,8 +18,8 @@ public class CDApp {
         }
         Collections.sort(cdList,new CDSorter());
         System.out.println("\n After Sorting : \n");
-        for(CD transaction : cdList){
-            System.out.println(transaction);
+        for(CD cd : cdList){
+            System.out.println(cd);
         }
     }
 }
