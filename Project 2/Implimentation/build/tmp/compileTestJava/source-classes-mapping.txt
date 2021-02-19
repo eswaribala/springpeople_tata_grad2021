@@ -1,8 +1,0 @@
-com/Tata/ShoppersDen/Helpers/TestDatabaseConnections.java
- com.Tata.ShoppersDen.Helpers.TestDatabaseConnections
-com/Tata/ShoppersDen/Helpers/CheckAuthorizer.java
- com.Tata.ShoppersDen.Helpers.CheckAuthorizer
-com/Tata/ShoppersDen/Helpers/CheckHelpers.java
- com.Tata.ShoppersDen.Helpers.CheckHelpers
-com/Tata/ShoppersDen/Helpers/CheckUser.java
- com.Tata.ShoppersDen.Helpers.CheckUser
