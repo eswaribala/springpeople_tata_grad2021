@@ -1,77 +1,88 @@
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-<SELECT * FROM categories WHERE category_id = 'Cate-1234827'
-CINSERT INTO categories VALUES ( 'Cate-1234827','Random Category' )
-;SELECT * FROM products WHERE product_id = 'Product-123422'
+<SELECT * FROM categories WHERE category_id = 'Cate-1234568'
+CINSERT INTO categories VALUES ( 'Cate-1234568','Random Category' )
+<SELECT * FROM products WHERE product_id = 'Product-1234140'
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-9DELETE FROM products WHERE product_id = 'Product-123422'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234140',6359.0,1,'unknownUser@123')
+:DELETE FROM products WHERE product_id = 'Product-1234140'
 []
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-<SELECT * FROM categories WHERE category_id = 'Cate-1234345'
-CINSERT INTO categories VALUES ( 'Cate-1234345','Random Category' )
-<SELECT * FROM products WHERE product_id = 'Product-1234255'
+<SELECT * FROM categories WHERE category_id = 'Cate-1234146'
+CINSERT INTO categories VALUES ( 'Cate-1234146','Random Category' )
+<SELECT * FROM products WHERE product_id = 'Product-1234938'
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-:DELETE FROM products WHERE product_id = 'Product-1234255'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234938',7409.0,1,'unknownUser@123')
+:DELETE FROM products WHERE product_id = 'Product-1234938'
 []
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-<SELECT * FROM categories WHERE category_id = 'Cate-1234129'
-CINSERT INTO categories VALUES ( 'Cate-1234129','Random Category' )
-<SELECT * FROM products WHERE product_id = 'Product-1234115'
+<SELECT * FROM categories WHERE category_id = 'Cate-1234791'
+CINSERT INTO categories VALUES ( 'Cate-1234791','Random Category' )
+<SELECT * FROM products WHERE product_id = 'Product-1234729'
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-:DELETE FROM products WHERE product_id = 'Product-1234115'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234729',1387.0,1,'unknownUser@123')
+:DELETE FROM products WHERE product_id = 'Product-1234729'
 []
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-<SELECT * FROM categories WHERE category_id = 'Cate-1234137'
-CINSERT INTO categories VALUES ( 'Cate-1234137','Random Category' )
-<SELECT * FROM products WHERE product_id = 'Product-1234308'
+;SELECT * FROM categories WHERE category_id = 'Cate-123452'
+BINSERT INTO categories VALUES ( 'Cate-123452','Random Category' )
+<SELECT * FROM products WHERE product_id = 'Product-1234798'
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-:DELETE FROM products WHERE product_id = 'Product-1234308'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234798',3740.0,1,'unknownUser@123')
+:DELETE FROM products WHERE product_id = 'Product-1234798'
 []
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-<SELECT * FROM categories WHERE category_id = 'Cate-1234902'
-CINSERT INTO categories VALUES ( 'Cate-1234902','Random Category' )
-<SELECT * FROM products WHERE product_id = 'Product-1234102'
+<SELECT * FROM categories WHERE category_id = 'Cate-1234320'
+CINSERT INTO categories VALUES ( 'Cate-1234320','Random Category' )
+<SELECT * FROM products WHERE product_id = 'Product-1234873'
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-:DELETE FROM products WHERE product_id = 'Product-1234102'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234873',1815.0,1,'unknownUser@123')
+:DELETE FROM products WHERE product_id = 'Product-1234873'
 []
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-<SELECT * FROM categories WHERE category_id = 'Cate-1234242'
-CINSERT INTO categories VALUES ( 'Cate-1234242','Random Category' )
-<SELECT * FROM products WHERE product_id = 'Product-1234853'
+<SELECT * FROM categories WHERE category_id = 'Cate-1234675'
+CINSERT INTO categories VALUES ( 'Cate-1234675','Random Category' )
+<SELECT * FROM products WHERE product_id = 'Product-1234905'
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-:DELETE FROM products WHERE product_id = 'Product-1234853'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234905',4176.0,1,'unknownUser@123')
+:DELETE FROM products WHERE product_id = 'Product-1234905'
 []
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-<SELECT * FROM categories WHERE category_id = 'Cate-1234811'
-CINSERT INTO categories VALUES ( 'Cate-1234811','Random Category' )
-;SELECT * FROM products WHERE product_id = 'Product-123426'
+<SELECT * FROM categories WHERE category_id = 'Cate-1234962'
+CINSERT INTO categories VALUES ( 'Cate-1234962','Random Category' )
+<SELECT * FROM products WHERE product_id = 'Product-1234900'
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-9DELETE FROM products WHERE product_id = 'Product-123426'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234900',1173.0,1,'unknownUser@123')
+:DELETE FROM products WHERE product_id = 'Product-1234900'
 []
 	4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-	:SELECT * FROM categories WHERE category_id = 'Cate-12346'
-	AINSERT INTO categories VALUES ( 'Cate-12346','Random Category' )
-	<SELECT * FROM products WHERE product_id = 'Product-1234305'
+	<SELECT * FROM categories WHERE category_id = 'Cate-1234915'
+	CINSERT INTO categories VALUES ( 'Cate-1234915','Random Category' )
+	<SELECT * FROM products WHERE product_id = 'Product-1234423'
 	XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-	:DELETE FROM products WHERE product_id = 'Product-1234305'
+	mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234423',9504.0,1,'unknownUser@123')
+	:DELETE FROM products WHERE product_id = 'Product-1234423'
 	[]
 
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
 
-<SELECT * FROM categories WHERE category_id = 'Cate-1234693'
+;SELECT * FROM categories WHERE category_id = 'Cate-123418'
 
-CINSERT INTO categories VALUES ( 'Cate-1234693','Random Category' )
+BINSERT INTO categories VALUES ( 'Cate-123418','Random Category' )
 
-<SELECT * FROM products WHERE product_id = 'Product-1234592'
+<SELECT * FROM products WHERE product_id = 'Product-1234453'
 
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
 
-:DELETE FROM products WHERE product_id = 'Product-1234592'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234453',7104.0,1,'unknownUser@123')
+
+:DELETE FROM products WHERE product_id = 'Product-1234453'
 
 []
 4SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
-<SELECT * FROM categories WHERE category_id = 'Cate-1234906'
-CINSERT INTO categories VALUES ( 'Cate-1234906','Random Category' )
-<SELECT * FROM products WHERE product_id = 'Product-1234649'
+<SELECT * FROM categories WHERE category_id = 'Cate-1234590'
+CINSERT INTO categories VALUES ( 'Cate-1234590','Random Category' )
+<SELECT * FROM products WHERE product_id = 'Product-1234103'
 XSELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
-:DELETE FROM products WHERE product_id = 'Product-1234649'
+mINSERT INTO TRANSACTIONS VALUES(DEFAULT,'2021-02-19 +05:30:00','Product-1234103',8616.0,1,'unknownUser@123')
+:DELETE FROM products WHERE product_id = 'Product-1234103'
 []

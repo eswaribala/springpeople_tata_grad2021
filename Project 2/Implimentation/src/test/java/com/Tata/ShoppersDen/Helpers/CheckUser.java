@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Stream;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CheckUser{
@@ -68,6 +69,11 @@ public class CheckUser{
             user = (User) authorizer.getPersonDetails("unknownUser@123","unknown@123");
         List<Product> products = user.getAllProducts();
         assertTrue(products.size()>0);
+        user.addToCart(products.get(0));
+        double productCost = user.displayCartAmount();
+        assertEquals(products.get(0).getPrice(),productCost);
+
+        user.Bill();
         
         admin.deleteProduct(product);
         admin.deleteCategory(product);

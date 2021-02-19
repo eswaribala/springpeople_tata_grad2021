@@ -14,15 +14,15 @@ com/Tata/ShoppersDen/Helpers/PasswordEncryptor.java
  com.Tata.ShoppersDen.Helpers.PasswordEncryptor
 com/Tata/ShoppersDen/Entity/Transaction.java
  com.Tata.ShoppersDen.Entity.Transaction
-com/Tata/ShoppersDen/Dao/DatabaseAccess.java
- com.Tata.ShoppersDen.Dao.DatabaseAccess
 com/Tata/ShoppersDen/Main.java
  com.Tata.ShoppersDen.Main
-com/Tata/ShoppersDen/Entity/User.java
- com.Tata.ShoppersDen.Entity.User
-com/Tata/ShoppersDen/Entity/Admin.java
- com.Tata.ShoppersDen.Entity.Admin
+com/Tata/ShoppersDen/Dao/DatabaseAccess.java
+ com.Tata.ShoppersDen.Dao.DatabaseAccess
 com/Tata/ShoppersDen/Helpers/Authorizer.java
  com.Tata.ShoppersDen.Helpers.Authorizer
+com/Tata/ShoppersDen/Entity/User.java
+ com.Tata.ShoppersDen.Entity.User
 com/Tata/ShoppersDen/Dao/DatabaseAccessImpl.java
  com.Tata.ShoppersDen.Dao.DatabaseAccessImpl
+com/Tata/ShoppersDen/Entity/Admin.java
+ com.Tata.ShoppersDen.Entity.Admin
