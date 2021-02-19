@@ -1,8 +1,10 @@
 package com.Tata.ShoppersDen.Entity;
 
 import com.Tata.ShoppersDen.Dao.DatabaseAccess;
+import lombok.AccessLevel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -13,6 +15,8 @@ public final class Admin extends Person{
     private String adminName;
     private String adminId;
     private String adminPassword;
+
+    @Getter(AccessLevel.NONE)
     private DatabaseAccess databaseAccess;
 
     public List<Transaction> getAllTransactions(){

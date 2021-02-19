@@ -58,6 +58,7 @@ public final class User extends Person{
         }
         transaction.setProduct(products);
         transaction.setUser(this.getUserId());
+        cart = new Cart();
         if(databaseAccess.completeTransaction(transaction))
             return Cost;
         return 0.00;
