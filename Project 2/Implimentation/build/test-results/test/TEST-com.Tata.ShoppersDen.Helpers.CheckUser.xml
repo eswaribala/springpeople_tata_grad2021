@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Tata.ShoppersDen.Helpers.CheckUser" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-02-18T13:09:07" hostname="Hemanth-C-Macbook-Pro.local" time="0.226">
+  <properties/>
+  <testcase name="[1] Product(productId=Product-123422, productName=Random Product, productDesc=Random Description, price=6312.373, quantity=2410, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.056"/>
+  <testcase name="[2] Product(productId=Product-1234255, productName=Random Product, productDesc=Random Description, price=3471.4744, quantity=1199, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.019"/>
+  <testcase name="[3] Product(productId=Product-1234115, productName=Random Product, productDesc=Random Description, price=6976.692, quantity=6446, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.017"/>
+  <testcase name="[4] Product(productId=Product-1234308, productName=Random Product, productDesc=Random Description, price=789.75903, quantity=5318, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.017"/>
+  <testcase name="[5] Product(productId=Product-1234102, productName=Random Product, productDesc=Random Description, price=5505.8076, quantity=3453, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.017"/>
+  <testcase name="[6] Product(productId=Product-1234853, productName=Random Product, productDesc=Random Description, price=2374.3481, quantity=4142, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.018"/>
+  <testcase name="[7] Product(productId=Product-123426, productName=Random Product, productDesc=Random Description, price=3008.1675, quantity=9257, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.02"/>
+  <testcase name="[8] Product(productId=Product-1234305, productName=Random Product, productDesc=Random Description, price=3957.557, quantity=6442, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.017"/>
+  <testcase name="[9] Product(productId=Product-1234592, productName=Random Product, productDesc=Random Description, price=5366.061, quantity=7665, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.016"/>
+  <testcase name="[10] Product(productId=Product-1234649, productName=Random Product, productDesc=Random Description, price=9580.47, quantity=3324, expDate=2021-02-18, imageUrl=null)" classname="com.Tata.ShoppersDen.Helpers.CheckUser" time="0.017"/>
+  <system-out><![CDATA[SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234827'
+INSERT INTO categories VALUES ( 'Cate-1234827','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-123422'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-123422'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234345'
+INSERT INTO categories VALUES ( 'Cate-1234345','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-1234255'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-1234255'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234129'
+INSERT INTO categories VALUES ( 'Cate-1234129','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-1234115'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-1234115'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234137'
+INSERT INTO categories VALUES ( 'Cate-1234137','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-1234308'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-1234308'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234902'
+INSERT INTO categories VALUES ( 'Cate-1234902','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-1234102'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-1234102'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234242'
+INSERT INTO categories VALUES ( 'Cate-1234242','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-1234853'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-1234853'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234811'
+INSERT INTO categories VALUES ( 'Cate-1234811','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-123426'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-123426'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-12346'
+INSERT INTO categories VALUES ( 'Cate-12346','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-1234305'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-1234305'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234693'
+INSERT INTO categories VALUES ( 'Cate-1234693','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-1234592'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-1234592'
+[]
+SELECT * FROM ADMINS WHERE admin_id = 'Hemanth@910'
+SELECT * FROM categories WHERE category_id = 'Cate-1234906'
+INSERT INTO categories VALUES ( 'Cate-1234906','Random Category' )
+SELECT * FROM products WHERE product_id = 'Product-1234649'
+SELECT * FROM USERS WHERE email = 'unknown123@gmail.com' OR user_id = 'unknownUser@123'
+DELETE FROM products WHERE product_id = 'Product-1234649'
+[]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
