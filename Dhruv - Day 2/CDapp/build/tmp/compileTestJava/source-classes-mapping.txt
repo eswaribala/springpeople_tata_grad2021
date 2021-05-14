@@ -1,0 +1,2 @@
+com/tata/CDapp/tests/CDtest.java
+ com.tata.CDapp.tests.CDtest
