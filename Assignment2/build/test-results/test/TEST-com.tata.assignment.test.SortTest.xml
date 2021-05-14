@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tata.assignment.test.SortTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-08T12:40:45" hostname="R-Shivas-MacBook-Pro.local" time="0.032">
+  <properties/>
+  <testcase name="Sort Check" classname="com.tata.assignment.test.SortTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
